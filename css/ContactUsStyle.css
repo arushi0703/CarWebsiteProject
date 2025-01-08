@@ -3,7 +3,7 @@
     margin-top: 20vh;
     margin-bottom: 10vh;
     width: 45%;
-    border: 10px solid #ADD7F6;
+    border: 10px solid #290239;
     padding: 1vh;
     border-radius: 2em;
     overflow: auto;
@@ -16,8 +16,8 @@
     width: 25vw;
     height: 4vh;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #290239;
+    box-shadow: 2px 2px 2px #f6ff00;
     padding-left: 15px;
     font-size: 1.2em;
 }
@@ -25,20 +25,22 @@
     vertical-align: top;
     width: 25vw;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #290239;
+    box-shadow: 2px 2px 2px #f6ff00;
     padding-left: 15px;
     font-size: 1.2em;
 }
 label{
     font-weight: bold;
     font-size: 1.5em;
+    color: white;
 }
 #button-style{
     margin-top: 4vh;
     width: 10vw;
-    background-color: #ADD7F6;
-    color: #145DA0;
+    background-color: #1d011d;
+    box-shadow: 1px 1px 1px #f6ff00;
+    color: #ffffff;
     padding: 1%;
     border: 0;
     border-radius: 100px ;
@@ -51,14 +53,17 @@ label{
     text-align: center;
     margin-bottom: 2vh;
     font-size: 1.6em;
+    color: #ffffff;
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
     #contactus-style{
         width: 80%;
+        color: #ffffff;
     }
     #email,#message{
         width: 100%;
+        color: #ffffff;
     }
     #button-style{
         width: 40%;
@@ -69,9 +74,11 @@ label{
 @media only screen and (min-width:1000px) and (max-width:1400px){
     #contactus-style{
         width: 80%;
+        color: #ffffff;
     }
     #email,#message{
         width: 100%;
+        color: #ffffff;
     }
     #button-style{
         width: 40%;

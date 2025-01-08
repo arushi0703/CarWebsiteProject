@@ -4,7 +4,7 @@
     width: 45%;
     padding: 5vw;
     margin-bottom: 20vh;
-    border: 10px solid #ADD7F6;
+    border: 10px solid #290239;
     border-radius: 2em;
     overflow: auto;
 }
@@ -28,11 +28,13 @@ table {
     text-align: center;
     margin-bottom: 2vh;
     font-size: 1.6em;
+    color: #dddddd;
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
     #Users-style, table{
         width: 80%;
+        color: #dddddd;
     }
     td, th {
         width: 100%;
@@ -47,6 +49,7 @@ table {
 @media only screen and (min-width:1000px) and (max-width:1400px){
     #Users-style{
         width: 80%;
+        color: #dddddd;
     }
     #email,#password{
         width: 100%;

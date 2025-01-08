@@ -2,7 +2,7 @@
     margin: auto;
     margin-top: 10vh;
     width: 45%;
-    border: 10px solid #ADD7F6;
+    border: 10px solid #290239;
     padding: 4vh;
     border-radius: 2em;
     overflow: auto;
@@ -14,25 +14,29 @@ input[type="text"],input[type="password"]{
     width: 22vw;
     height: 4vh;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #290239;
+    box-shadow: 2px 2px 2px #f6ff00;
     padding-left: 15px;
     font-size: 1.2em;
 }
+
 label{
     font-weight: bold;
     font-size: 1.5em;
+    color: white;
 }
 #register-title{
     text-align: center;
     margin-bottom: 2vh;
     font-size: 1.6em;
+    color: #ffffff;
 }
 #button-style{
     margin-top: 4vh;
     width: 10vw;
-    background-color: #ADD7F6;
-    color: #145DA0;
+    box-shadow: 2px 2px 2px #f6ff00;
+    background-color: #1d011d;
+    color: #ffffff;
     padding: 1%;
     border: 0;
     border-radius: 100px ;
@@ -45,6 +49,7 @@ label{
 @media only screen and (max-width:1000px) {
     #Registraion-style{
         width: 80%;
+        color: #ffffff;
     }
     input[type="text"],input[type="password"]{
         width: 100%;
@@ -58,6 +63,7 @@ label{
 @media only screen and (min-width:1000px) and (max-width:1400px){
     #Registraion-style{
         width: 80%;
+        color: #ffffff;
     }
     input[type="text"],input[type="password"]{
         width: 100%;

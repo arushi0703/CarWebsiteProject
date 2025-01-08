@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/carlogo.png" />
+    <link rel="stylesheet" href="../css/ContactUsStyle.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+    <div class="menu-style">
+        <a href="../home.html"><img src="../images/carlogo.png" alt="Website Logo" id="menu-logo" /></a>
+        <button class="icon-style" id="hide">
+            <p class="fa-solid fa-bars "></p>
+        </button>
+    </div>
+    <div class="fixed"></div>
+    <nav id="nav-style">
+        <ul>
+            <li style="float: left;"><a href="../home.html"><img src="../images/carlogo.png" alt="Website Logo" id="logo" /></a></li>
+        </ul>
+        <ul id="style-ul">
+            <li><a class="style-list" href="../home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a class="style-list active" href="./pages/filter.html"><i class="fa-solid fa-car"></i> Collections</a></li>
+            <li><a class="style-list" href="./ContactUs.html"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
+            <li><a class="style-list" href="./Login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+            <li><a class="style-list" href="./Register.html"><i class="fa-solid fa-user-plus"></i> Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search by Brands" oninput="filterProducts()">
+    </div>
+    <div class="products">
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>BMW M3</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>BMW M4</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="M4" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>M4 Competition Coupe</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="Ferrari" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Ferrari F40</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="Bugatti" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Bugatti Veyron 16.4</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="Pagani" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Pagani Huayra</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Koenigsegg Agera RS</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Hennessey Venom F5</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Lamborghini Revuelto</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>McLaren 750S Coupe</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="Ferrari" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Ferrari 488 Spider</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="Mercedes" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Mercedes-Benz S580 4MATIC Sedan</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Mercedes-Benz C300 Sedan</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Mercedes-Benz G550 SUV</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Mercedes-Benz E450 4MATIC Sedan</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        <div class="product" id="BMW" >
+            <img src="" height="250px" alt="image not avaliable">
+            <p>Mercedes-Benz AMG GT Coupe</p>
+            <b>
+                <p>&#8377;00000</p>
+            </b>
+        </div>
+        
+    </div>
+
+    <script src="main.js"></script>
+
+
+    <div class="fixed"></div>
+    <footer id="footer-style">
+        <ul id="footer-ul">
+            <li>
+                <p id="copyright" class="footer-li">@2024 Car Fiesta. All rights reserved.</p>
+            </li>
+            <li>
+                <p id="developer-name" class="footer-li">This website is made by Web Developer <br><a
+                        href="https://github.com/arushi0703" target="_blank"><i style="font-size: xx-large;"
+                            class="fa-brands fa-github"></i> Arushi</a> <br><a href="https://github.com/Arjunxsane"
+                        target="_blank"><i style="font-size: xx-large;" class="fa-brands fa-github"></i> Arjun
+                        Sharma</a></p>
+            </li>
+            <li>
+                <ul id="footer-terms" class="footer-li">
+                    <li><a href="">Company Information</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Term & Conditions</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+
+    </footer>
+    <script src="../JS/jsfile.js"></script>
+</body>
+
+</html>

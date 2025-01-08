@@ -2,7 +2,7 @@
     clear: both;
 }
 #footer-style{
-    background-color: #ADD7F6;
+    background-color: #000000;
     margin-top: 10vh;
     font-size: 1.2em;
     font-weight: bold;
@@ -14,6 +14,7 @@
 
 #footer-ul li{
     list-style: none;
+    color: white;
   }
 .footer-li{
     float: left;

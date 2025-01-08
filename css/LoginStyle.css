@@ -2,7 +2,7 @@
     margin: auto;
     margin-top: 10vh;
     width: 45%;
-    border: 10px solid #ADD7F6;
+    border: 10px solid #290239;
     border-radius: 2em;
     overflow: auto;
     padding: 5vw;
@@ -14,8 +14,8 @@ input{
     width: 25vw;
     height: 4vh;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #290239;
+    box-shadow: 1px 1px 1px #290239;
     padding-left: 15px;
     font-size: 1.2em;
 }
@@ -24,13 +24,14 @@ input{
     vertical-align: top;
     width: 25vw;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #290239;
+    box-shadow: 2px 2px 2px #f6ff00;
     
 }
 label{
     font-weight: bold;
     font-size: 1.5em;
+    color: white;
 }
 h1{
     text-align: center;
@@ -39,8 +40,8 @@ h1{
 #button-style{
     margin-top: 4vh;
     width: 10vw;
-    background-color: #ADD7F6;
-    color: #145DA0;
+    background-color: #1d011d;
+    color: #ffffff;
     padding: 1%;
     border: 0;
     border-radius: 100px ;
@@ -53,11 +54,13 @@ h1{
     text-align: center;
     margin-bottom: 2vh;
     font-size: 1.6em;
+    color: #ffffff;
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
     #login-style{
         width: 80%;
+        color: #ffffff;
     }
     #email,#password{
         width: 100%;
@@ -73,6 +76,7 @@ h1{
 @media only screen and (min-width:1000px) and (max-width:1400px){
     #login-style{
         width: 80%;
+        color: #ffffff;
     }
     #email,#password{
         width: 100%;

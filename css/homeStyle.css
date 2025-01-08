@@ -4,7 +4,7 @@
 #brands-video{
     text-align: center;
     margin-bottom: 2vh;
-    color:#1434A4;
+    color:#ffffff;
 }
 #videos-style{
     border: 0;
@@ -13,7 +13,7 @@
 .div-title{
     text-align: center; 
     margin-top: 3vh;
-    color:#1434A4;
+    color:#ffffff;
 }
 .products-style{
     margin-left: 10vw;
@@ -22,12 +22,12 @@
 }
 .products-style>section{
     float: left;
-    background-color: #f1f1f1;
+    background-color: #84018e;
     padding: 0.3vw;
     border-radius: 0.5vw;
     margin: 0.5vw;
     overflow: auto;
-    box-shadow: 8px 5px #ADD7F6 ;
+    box-shadow: 8px 5px #ebe308 ;
 }
 .products-style>section>img{ 
     margin: 1vh 0 0 1vw;
@@ -50,12 +50,12 @@
 
 section p::first-letter{
     font-size: x-large;
-    color: red;
+    color: rgb(255, 255, 255);
 }
 .show-more-button{
     border: 0;
     padding: 1vw;
-    background-color: #0275d8;
+    background-color: #1d011d;
     border-radius: 8px;
     margin: 0 0 1vh 5vw;
     font-size: 1em;
@@ -82,9 +82,11 @@ section p::first-letter{
         width: 80%;
         padding: 2vw;
         margin-bottom: 2vh;
+        color: white;
     }
     .products-style>section>p{
         width: fit-content;
+        color: white;
     }
     .div-title{
         font-size: 1.6em;
