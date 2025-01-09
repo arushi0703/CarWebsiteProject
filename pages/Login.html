@@ -32,13 +32,13 @@
         </ul>
     </nav>
     
-    <div id="login-style">
+    <div id="login-style" oninput="login()">
         <h2 id="login-title"><i class="fa-solid fa-right-to-bracket"></i> Login Form</h2>
         <label for="email"><i class="fa-solid fa-envelope"></i> Email  </label>
         <input type="text" name="email" id="loginEmail" placeholder="Enter your email address"><br>
         <label for="password"><i class="fa-solid fa-lock"></i> Password </label>
         <input type="password" name="password" id="loginPassword" placeholder="Enter your password"><br>
-        <button type="submit" id="button-style">Login</button>
+        <button type="submit" id="button-style" oninput="validateLogin()">Login</button>
     </div>
     <div class="fixed"></div>
     <footer id="footer-style">
